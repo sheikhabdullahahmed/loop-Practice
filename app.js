@@ -23,10 +23,19 @@
 //     console.log ("i =" , i)
 // }
 
+// let li = [10,20,30,40,50,60,70];
+// console.log (li .lastIndexOf(50))
 
-// let i =1;
+// let are = [10,20,30];
+// let arr = [20,30,40];
+// console.log (are.concat(arr))
+
+// let arr = ["Sheikh"];
+// let arr2 = ["Abdullah"]
+// console.log (arr2.concat (arr))
 // while (i <=10) {
-//     document.write ("i ");
+    //     document.write ("i ");
+    // let i =1;
 //     i++;
 // }
 
@@ -44,6 +53,12 @@
 // let sum = 50;
 // for (let i= 30; i<=10; i++) {
 //     console.log ("sum")
+// }
+
+
+// for (let i = 0 ; i < 10; i++) {
+// document.write(i)
+    
 // }
 
 // let num = 20;
@@ -118,6 +133,16 @@
 //     game++
 // }
 
+// let user = prompt ("Enter Your Table");
+// let input = prompt ("Enter Your Length");
+// for (i = user; i <input.length ; i++) {
+    
+// }
+
+// document.write(`${user} x  ${i} = ${user*input.length} `)
+
+
+
 // let game =20; 
 // while (game <=30) {
 //     console.log (game)
@@ -147,6 +172,55 @@
 //     console.log (game)
 //     game ++
 // }
+
+// let marks  = {
+//     abdullah : 20,
+//     sheikh : 20,
+//     abdul : 20,
+//     hamza : 30
+// }
+// for (let i = 0; i <Object.keys(marks).length; i++) {
+//     console.log ("the marks of " + Object.keys(marks)[i] + "are"  + marks[Object.keys(marks)[i]])
+// }
+
+
+// let marks =  {
+//     sheikh : 20,
+//     abdullah : 20,
+//     sheikh : 30,
+//     sheikhabdullah : 40,
+// }
+
+// for (let i = 0; i<Object.keys(marks).length; i++) {
+//     console.log ("the number of " + Object.keys(marks)[i] + "are " + marks[Object.keys(marks)[i]] )
+// }
+
+// let marks  = { 
+//     sheikh :20,
+//     abdullah: 20,
+//     sheikhabdullah : 29,
+
+// }
+// for (let key in marks) {
+//     console.log ("the marks of " + key + "is" + marks[key])
+// }
+
+// let cn = 43;
+// let i 
+// while (i != cn) {
+//     i = prompt ("enter a number")
+//     console.log ("try again")   
+// }
+// console.log ("you have correct password")
+
+
+// let game =  20;
+// while (game <= 30) {
+//     console.log(game)
+//     game++
+// }
+
+
 
 
 // let hum = 50;
@@ -223,6 +297,14 @@
 //     hum++
 // }
 
+// let hum= 30;
+// while (hum <= 3) {
+//     console.log ("gamer")
+//     console.log ("ggg");
+//     console.log ("hhh")
+//     hum++
+// }
+
 
 // let gameNum = 25; 
 // let userNum = prompt ("Gussse The Number ");
@@ -256,6 +338,13 @@
 //     userNum = prompt ("hhhh")
 // }
 // alert("jjjj")
+
+// let game = 25;
+// let userNum = prompt ("you are wrong");
+// while(userNum != game) {
+//     userNum = prompt ("Sheikh")
+// }
+// alert("Habibi");
 
 
 
@@ -292,6 +381,42 @@
 //     }
 // }
 
+// let arr = ["Sheikh", "Sheikh Abdullah", "Ahmed", "Laptop"];
+// let arr2 = ["Gamer", "Home"];
+// for (let i = 0; i <arr.length; i++) {
+//     for (let j = 0; j <arr2.length; j++) {
+//         console.log (arr[i] + "" + arr2 [j])
+//     }
+
+    
+// } 
+
+// let arr = ["Aloo", "Tamatar", "Sbzi", "Kheera"];
+// let arr2 = ["Laptop", "Computer", "Aloo", "Gahr"];
+// for (i = 0; i < arr.length;  i++) {
+//     for (let j = 0 ; j < arr2.length; j++) {
+//         document.write(arr[i] + "" + arr2[i])
+//         document.write("<br>")
+//     }
+// }
+ 
+
+// let arr = ["Sheikh", "ABDULLAH", "Sheikh Abdullah", "Gamer"];
+// let arr2 = ["Experitzo", "Laptop"];
+// for (let i = 0 ; i < arr.length; i++) {
+//     for (let j = 0; j < arr2.lengthl; j++) {
+//         console.log (arr[i] + "" + arr2[j])
+//     }
+// }
+
+// let arr = ["SHEIKH", "Abdullah", "Sheikh Abdullah"];
+// let arr2 =  ["Home", "House", "Game"];
+// for (let i = 0 ; i < arr.length; i++) {
+//     for (let j = i ; j< arr2.length; j++ ) {
+//         document.write (arr[i] + "" + arr2[i] )
+//         document.write ("<br>")
+//     }
+// }
 
 // let arr = ["Sheikh", "Abdullah", "abdul", "Smeed"];
 // let arr2 = ["Expertizo", "Sameed"];
@@ -443,6 +568,11 @@
     
 // }
 
+// for (let i = 1; i <=5; i+= 5 ) {
+//     for (let j = i ; j < i && + 5 && j < 5; j++)
+//     document.write(j + "")
+// }
+
 
 // for (let i = 5 ; i >= 1; i--) {
 //     for (let j = 5; j >= i; j-- ) {
@@ -534,6 +664,27 @@
 //     document.write ("<br>");
 // }
 
+// for (let i = 1; i<= 5; i++) {
+//     for (let j = 1; j<= i; j++) {
+//         document.write (j + "")
+//     }
+
+//     document.write("<br>")
+// }
+
+// for (let i = 5; i>= 1; i-- ) {
+//     for (let j = 5; j >= i; j--) {
+//         document.write(j)
+//     }
+//     document.write("<br> ")
+// }
+
+// for (let i = 5; i >= 1; i--) {
+//     for (let j = 5; j>= i; j--) {
+//         document.write(j + "" )
+//     }
+//     document.write("<br>")
+// }
 
 
 
@@ -565,20 +716,13 @@
 
 // console.log ("the cost of", obj.item, "is" , obj.price, "rupess" );
 
-// let output = 'the cost of $ {obj.item }'
+let output = 'the cost of $ {obj.item }'
 
 // for (var i = 5; i >= 1; i--) {
 //    for (var j = 5; j >= i; j--) {
 //        document.write(j + " ");
 //    }
 //    document.write("<br>");
-// }
-
-// for (let i = 5; i >= 1; i--) {
-//     for (let j = 5; j >= i; j--) {
-//         console.log(j + "")
-//     }
-//     console.log ("<br>")
 // }
 
 
@@ -607,14 +751,201 @@
 
 // for (let i =1 ; i <= 5; i++) {
 //     for (let j =1; j <=i; j++) {
-//         document.write (i + "")
+//         document.write ("*" + "")
 //     }
 //     document.write("<br>")
 // }
 
+// for (let i =1; i>=5; i--) {
+//     for(let j = 1; j>= i ; j--) {
+//         document.write(j + "")
+//     }
+//     document.write("<br>")
+// }
+
+
+// for (let i = 5; i>=1; i--) {
+//     for(let j =5; j>=i;j--) {
+//         document.write(j+"")
+//     }
+//     document.write("<br>")
+// }
+// f
+
+// or (let i =1; i<=5;i++) {
+//     for (let j =1; j<=i; j++) {
+//         document.write(i + "")
+//     }
+//     document.write("<br>")
+// }
+// for (let i = 5; i>=1; i--) {
+//     for (let j = 5; j>=i ;j--){
+//         document.write(j + "")
+//     }
+//     document.write("<br>")
+
+
+// }
+
+
+// function factorail (n) {
+//     let num = 1
+//     for (let i =2; i<=n; i++) {
+//         num*=3
+//     }
+//     return num
+// }
+
+// function factorail (n) {
+//     let num= 1;
+//     for (let i =2; i<= n; i++ ) {
+//         num *= 3
+//     }
+//     return num
+// }
+// document.write(factorail (3232))
+
+
+// function factorail (n) {
+//     let num = 2
+//     for (let i = 2; i<=n; i++) {
+//         num *= 3
+
+
+//     }
+//     return num
+// }
+
+// console.log(factorail (6));
+
+
+
+// for (let i = 5 ; i>= 0; i--) {
+//     for (let j = 5; j>= i; j--) {
+//         document.write(j  + "")
+//     }
+//     document.write("<br>")
+// }
+
+
+// let user = prompt("Enrer any value")
+// let check  = ""
+// for(let i= user.length-1; i>=0 ;i--) {
+//     check += user[i]
+// }
+
+// if(user == check ) {
+//     alert("hellow Wolrld")
+// }
+// else {
+//     alert("CancelWorld")
+// }
+// console.log (factorail (8))
+// let user = prompt("Enter any  word ")
+// let check = ''
+// for (let i = user.length-1; i>= 0; i --) {
+//     check += user[i]
+// }
+// if(user == check) {
+//     alert("word possibale")
+// }
+// else {
+//     alert("word not ")
+
+// }
+
+// let user = prompt("Enter any update value")
+// let check = ''
+// for (let i = user.length-1; i>= 0 ; i--) {
+//     check += user [i]
+// }
+// if (user == check ) {
+//     alert("good")
+// }
+// else {
+//     alert("ungood")
+
+// }
+
+
+
+// let user = prompt("Enter any word")
+// let check = ''
+// for (i = user.length-1; i>= 0; i-- ) {
+//     check+= user [i]
+// }
+// if (user == check) {
+//     alert("good")
+// }
+// else {
+//     alert("notgood")
+// }
+
+
+// let user = prompt("Enter any update value")
+// let check = ""
+// for (let i = user.length-1; i>=  0; i--  ) {
+//     check += user
+    
+//     [i]
+// }
+// if(user == check ) {
+//     alert("good")
+// }
+
+// else {
+//     alert("ungood")
+
+// }
+// f
+
+// or (let i = 1; i <= 5; i++) {
+//     for (let j = 1; j <= i; j++) {
+//         document.write(i+ "")
+//     }
+//     document.write("<br>")
+// }
+
+
+
+// let user = prompt("enter any number")
+// let user1 = (Math.ceil(user) )
+// console.log (user1) 
+
+
+// let user = prompt("enter any number")
+// let user1 = (Math.ceil(user) )
+// console.log (user1) 
+
+
+// for(let i =0; i<= 10; i++){
+//     for (let j = 0; j<= i; j++ ) {
+//         document.write("*" + "" )
+
+//     }
+//     document.write("<br>")
+// }
+
+
+// for (let i = 5; i>= 1; i-- ) {
+//     for (let j= 5; j>=i; j-- ) {
+//         document.write( j+ "")
+//     }
+//     document.write("<br>")
+
+// }
 // for (let i =1; i <= 5; i++) {
 //     for (let j =1 ; j <= i; j++) {
 //         document.write(i + "")
 //     }
 //     document.write("<br>")
 // }
+
+// for (let k = 0 ;k <= 10; k++) {
+//     if (k == 5) {
+//         continue
+//     }
+//     document.write(k)
+//     document.write("<br>")
+// }
+
