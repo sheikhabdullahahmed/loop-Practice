@@ -139,11 +139,68 @@
     
 // }
 
+
+
 // document.write(`${user} x  ${i} = ${user*input.length} `)
 
 
+// function person (firstName, last, age) {
+//     this.firstName = firstName
+//     this.lastName = last
+//     this.Age = age
+// }
 
+// const myFather = new person ("Abdullah", "Sheikh", 19)
+
+
+// document.getElementById("demo").innerHTML = 
+// "My father is " + myFather.firstName 
+
+// function Car (model, year) {
+//     this.model = model
+//     this.year = year
+// }
+
+// let C1 = new Car ("Mustang", 1945)
+// let C2 = new Car ("Audi", 1948)
+
+// //add proerty
+// Car.prototype.color = "Red"
+
+
+// // add Method 
+// Car.prototype.drive = function () {
+//     console.log(`Driving ${this.model}`);
+// }
+
+// //display add property using C1 and C2 Objects
+// console.log(`${C1.model} color: ${C1.color}`);
+// console.log(`${C2.model} color: ${C2.color}`);
+
+// //display add property using C1 and C2 objects 
+// C1.drive();
+// C2.drive();
+
+
+
+
+
+// function Person (first, lastName) {
+//     this.FirstName = first
+//     this.LastName = lastName
+// }
+
+
+// const myName = new Person ("Sheikh Abdullah", "Ahmed")
+
+
+// document.getElementById("demo").innerHTML = 
+// "My Name is" + myName.FirstName
 // let game =20; 
+
+
+
+
 // while (game <=30) {
 //     console.log (game)
 //     game++
