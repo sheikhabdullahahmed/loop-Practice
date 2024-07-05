@@ -182,6 +182,26 @@
 // C2.drive();
 
 
+let obj = new Object()
+
+obj.name = "Sheikh"
+obj.age = "10"
+obj.school = "School"
+
+let getdiv = document.getElementById("demo")
+for (let key in obj) {
+    getdiv.innerHTML += `${key} : ${obj[key]}`
+}
+
+
+let getBtn = document.getElementById("getbtn")
+getBtn.addEventListener("click", () => {
+    for (let key in obj) {
+        delete obj[key]
+    }
+    getdiv.innerHTML = ""
+})
+
 
 
 
@@ -262,6 +282,12 @@
 //     console.log ("the marks of " + key + "is" + marks[key])
 // }
 
+
+for (let i = 0; i < 5; i++) {
+    for (let j = i ; j < 5; i++) {
+        document.write(i + "")
+    }
+}
 // let cn = 43;
 // let i 
 // while (i != cn) {
@@ -720,7 +746,14 @@
 //     }
 //     document.write ("<br>");
 // }
+for (let i = 1; i <5; i++) {
+    for (let j = i ; j < 5; j++) {
+        document.write(i + "")
+    }
 
+
+
+}
 // for (let i = 1; i<= 5; i++) {
 //     for (let j = 1; j<= i; j++) {
 //         document.write (j + "")
