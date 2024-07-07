@@ -738,7 +738,12 @@ for (let i = 0; i < 5; i++) {
 //     ]
 //     document.write ('<br>')
 // }
-
+for (let i = 0; i <= 5; i++) {
+    for (let j = i ; j <= 5; j++) {
+        document.write(i + "")
+    }
+    
+}
 
 // for (let i = 5; i >= 1; i--) {
 //     for (let j =5; j >= i ; j--) {
@@ -746,14 +751,14 @@ for (let i = 0; i < 5; i++) {
 //     }
 //     document.write ("<br>");
 // }
-for (let i = 1; i <5; i++) {
-    for (let j = i ; j < 5; j++) {
-        document.write(i + "")
-    }
+// for (let i = 1; i <5; i++) {
+//     for (let j = i ; j < 5; j++) {
+//         document.write(i + "")
+//     }
 
 
 
-}
+// }
 // for (let i = 1; i<= 5; i++) {
 //     for (let j = 1; j<= i; j++) {
 //         document.write (j + "")
@@ -806,7 +811,7 @@ for (let i = 1; i <5; i++) {
 
 // console.log ("the cost of", obj.item, "is" , obj.price, "rupess" );
 
-let output = 'the cost of $ {obj.item }'
+// let output = 'the cost of $ {obj.item }'
 
 // for (var i = 5; i >= 1; i--) {
 //    for (var j = 5; j >= i; j--) {
@@ -995,6 +1000,9 @@ let output = 'the cost of $ {obj.item }'
 //     }
 //     document.write("<br>")
 // }
+
+
+
 
 
 
