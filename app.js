@@ -182,25 +182,25 @@
 // C2.drive();
 
 
-let obj = new Object()
+// let obj = new Object()
 
-obj.name = "Sheikh"
-obj.age = "10"
-obj.school = "School"
+// obj.name = "Sheikh"
+// obj.age = "10"
+// obj.school = "School"
 
-let getdiv = document.getElementById("demo")
-for (let key in obj) {
-    getdiv.innerHTML += `${key} : ${obj[key]}`
-}
+// let getdiv = document.getElementById("demo")
+// for (let key in obj) {
+//     getdiv.innerHTML += `${key} : ${obj[key]}`
+// }
 
 
-let getBtn = document.getElementById("getbtn")
-getBtn.addEventListener("click", () => {
-    for (let key in obj) {
-        delete obj[key]
-    }
-    getdiv.innerHTML = ""
-})
+// let getBtn = document.getElementById("getbtn")
+// getBtn.addEventListener("click", () => {
+//     for (let key in obj) {
+//         delete obj[key]
+//     }
+//     getdiv.innerHTML = ""
+// })
 
 
 
@@ -283,12 +283,12 @@ getBtn.addEventListener("click", () => {
 // }
 
 
-for (let i = 0; i < 5; i++) {
-    for (let j = i ; j < 5; i++) {
-        document.write(i + "")
-    }
-}
-// let cn = 43;
+// for (let i = 0; i < 5; i++) {
+//     for (let j = i ; j < 5; i++) {
+//         document.write(i + "")
+//     }
+// }
+// // let cn = 43;
 // let i 
 // while (i != cn) {
 //     i = prompt ("enter a number")
@@ -738,12 +738,12 @@ for (let i = 0; i < 5; i++) {
 //     ]
 //     document.write ('<br>')
 // }
-for (let i = 0; i <= 5; i++) {
-    for (let j = i ; j <= 5; j++) {
-        document.write(i + "")
-    }
+// for (let i = 0; i <= 5; i++) {
+//     for (let j = i ; j <= 5; j++) {
+//         document.write(i + "")
+//     }
     
-}
+// }
 
 // for (let i = 5; i >= 1; i--) {
 //     for (let j =5; j >= i ; j--) {
@@ -1001,8 +1001,9 @@ for (let i = 0; i <= 5; i++) {
 //     document.write("<br>")
 // }
 
-
-
+let user = prompt("Enter Any Value")
+let user1 = (Math.ceil(user))
+console.log(user1)
 
 
 
